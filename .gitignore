@@ -1,0 +1,10 @@
+*
+!mods/
+!mods/**
+!WSOCK32.dll
+!README.md
+!.gitignore
+
+# Runtime-generated files (don't distribute these)
+mods/logs/
+mods/downloads/
