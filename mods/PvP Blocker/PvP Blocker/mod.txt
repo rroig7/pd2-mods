@@ -1,0 +1,14 @@
+{
+	"name" : "PvP Blocker",
+	"description" : "Prevents sudden death by other players while in game.",
+	"author" : "Author: Playhouse/Mayzone",
+	"contact" : "Discord: Mayzone#2647",
+	"version" : "1",
+	"blt_version" : 2,
+	"undisablable" : false,
+	"disable_safe_mode" : true,
+	"color": "0 46 255",
+	"hooks": [
+		{ "hook_id": "lib/network/handlers/unitnetworkhandler", "script_path": "PvP Blocker.lua" }
+	]
+}
