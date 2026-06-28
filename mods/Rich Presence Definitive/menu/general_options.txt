@@ -1,0 +1,46 @@
+{
+	"menu_id" : "general_options",
+	"parent_menu_id" : "blt_options",
+	"title" : "RPDS_options_menu_title",
+	"description" : "RPDS_options_menu_desc",
+	"back_callback" : "RichPresenceDefinitive_callback_save",
+	"items" : [{    "type" : "multiple_choice",
+			"id" : "use_save_file",
+			"title" : "RPDS_use_save_file_title",
+			"description" : "RPDS_use_save_file_desc",
+			"callback" : "RichPresenceDefinitive_callback_savefilechoice",
+			"items" : [
+				"menu_use_save_file_on",
+				"menu_use_save_file_off",
+				"menu_use_save_file_old"
+			],
+			"value" : "use_save_file",
+			"default_value" : 1
+	},
+	{    "type" : "multiple_choice",
+			"id" : "difficulty_showcase",
+			"title" : "RPDS_difficulty_showcase_title",
+			"description" : "RPDS_difficulty_showcase_desc",
+			"callback" : "RichPresenceDefinitive_callback_difficultyshowcase",
+			"items" : [
+				"menu_difficulty_showcase_text",
+				"menu_difficulty_showcase_stars"
+			],
+			"value" : "difficulty_showcase",
+			"default_value" : 1
+	},
+	{    "type" : "multiple_choice",
+			"id" : "od_showcase",
+			"title" : "RPDS_od_showcase_title",
+			"description" : "RPDS_od_showcase_desc",
+			"callback" : "RichPresenceDefinitive_callback_od_showcase",
+			"items" : [
+				"menu_difficulty_showcase_text",
+				"menu_difficulty_showcase_skull_and_bones",
+				"menu_difficulty_showcase_sunglasses"
+			],
+			"value" : "od_showcase",
+			"default_value" : 1
+	}
+	]
+}

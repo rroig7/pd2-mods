@@ -1,0 +1,34 @@
+{
+	"menu_id" : "tags_options",
+	"parent_menu_id" : "custom_names_editor",
+	"title" : "RPDS_tags_title",
+	"description" : "RPDS_tags_desc",
+	"back_callback" : "RichPresenceDefinitive_callback_save",
+	"items" : [
+                {	"type" : "toggle",
+			"id" : "autotag",
+			"title" : "autotag_title",
+			"description" : "autotag_desc",
+			"callback" : "RichPresenceDefinitive_callback_toggle",
+			"value" : "autotag",
+			"default_value" : true
+		},
+		{	"type" : "toggle",
+			"id" : "bracket_tag",
+			"title" : "bracket_tag_title",
+			"description" : "bracket_tag_desc",
+			"callback" : "RichPresenceDefinitive_callback_toggle",
+			"value" : "bracket_tag",
+			"default_value" : true
+		},
+		{
+            "type": "input",
+            "id": "customtag",
+            "title": "customtag_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "customtag"
+		}
+		
+	]
+}

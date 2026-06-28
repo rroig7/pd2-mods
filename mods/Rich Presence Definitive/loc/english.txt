@@ -1,0 +1,121 @@
+{		
+		"how_to" : "Set up a specific name for this entry.",		
+		
+		"RPDS_heists_title" : "Heists",
+		"RPDS_levels_title" : "Levels (for Crime Spree)",
+
+		"RPDS_greetings_title" : "Hello there. Thank you for installing and using RPD!",
+		"RPDS_greetings_desc" : "WARNING!!!\nThe 1.7 mod update generates a list of heist and level names automatically, the names of which can be edited in the mod settings. If you have used this mod before and changed a lot of heist/level names - use \"Heist names -> (Old method) RPD's save file\", because the old way of Steam status formation will be no longer supported",
+		"RPDS_greetings_message_confirm":  "Got it",
+		"days_title" : "Day",
+
+		"RPDS_options_menu_title" : "Rich Presence Definitive",
+		"RPDS_options_menu_desc" : "Rich Presence Definitive Settings",
+
+		"RPDS_use_save_file_title": "Heist names",
+		"RPDS_use_save_file_desc": "Decide what RPD will use as a source for the names of the heists",
+
+		"menu_use_save_file_on" : "RPD's save file",
+		"menu_use_save_file_off" : "Game loc",
+		"menu_use_save_file_old" : "(Old method) RPD's save file",
+		
+		"RPDS_tag_mode_title": "RPD Mode",
+		"RPDS_tag_mode_desc": "Change the tag and other info showcase.\nDefault - Overhaul/vanilla tag will be displayed, such as [Vanilla]\nNo Tag Mode - Tag is not displayed\nAnonymous Mode - Nothing will be displayed under PAYDAY 2\nAnonymous Mode With Tag - No status mode, nothing except your tag (e.g [Vanilla]) will be displayed",
+		
+		"menu_tag_mode_default" : "Default",
+		"menu_tag_mode_tagless" : "No Tag Mode",
+		"menu_tag_mode_anonymous" : "Anonymous Mode",
+		"menu_tag_mode_anonymous_tag" : "Anonymous Mode With Tag",
+		
+		"RPDS_difficulty_showcase_title": "Difficulty Showcase",
+		"RPDS_difficulty_showcase_desc": "Decide what RPD will use for showcasing difficulty",
+		
+		"menu_difficulty_showcase_text" : "Text",
+		"menu_difficulty_showcase_stars" : "Stars",
+		
+		"RPDS_od_showcase_title": "One Down showcase",
+		"RPDS_od_showcase_desc": "Decide what RPD will use for showcasing One Down modifier",
+		
+		"menu_difficulty_showcase_text" : "Text",
+		"menu_difficulty_showcase_skull_and_bones" : "Skull and Bones",
+		"menu_difficulty_showcase_sunglasses" : "Sunglasses",
+		
+		
+		"RPDS_advanced_title" : "Options",
+		"RPDS_advanced_desc" : "",
+		"tagless_title" : "No Tag Mode",
+		"tagless_desc" : "Determine if overhaul/vanilla tag should be displayed, such as [Vanilla]",
+		"anonymous_title" : "Anonymous Mode",
+		"anonymous_desc" : "Nothing will be displayed under PAYDAY 2",
+		"anonymous_tag_title" : "Anonymous Mode With Tag",
+		"anonymous_tag_desc" : "No status mode, nothing except your tag (e.g [Vanilla]) will be displayed",
+		"game_state_status_title": "Show game state (Stealth or Loud)",
+		"game_state_status_desc": "Show heist state depends on in-game situation (will be displayed before heist info)",
+		"steammm_tag_title": "Show Steam MM in tag",
+		"steammm_tag_desc": "Show in tag that you use -steamMM launch option (aka using Steam matchmaking)",
+
+
+        "RPDS_tags_title" : "Tag",
+		"RPDS_tags_desc" : "",
+		"autotag_title" : "Auto tag",
+		"autotag_desc" : "The mod will put the tag itself, depending on which overhaul you are playing (or vanilla)",
+		"bracket_tag_title" : "Enable brackets for tag",
+		"bracket_tag_desc" : "",
+		"customtag_title" : "Custom tag",
+
+		"RPDS_custom_title" : "Custom Names Editor",
+		"RPDS_custom_desc" : "Set up the names of everything.",		
+		
+		"RPDS_states_title" : "States",
+		"RPDS_states_desc" : "",
+		"menu_title" : "Main Menu",
+		"private_title" : "Private Lobby",
+		"empty_title" : "Empty Lobby",
+        "lobby_title" : "Lobby",
+        "ingame_title" : "In-game",
+        "payday_title" : "Payday",
+        "preplanning_title" : "Preplanning",
+		"game_state_loud_title": "Loud",
+		"game_state_stealth_title": "Stealth",
+		
+		"RPDS_diffs_title" : "Difficulty",
+		"RPDS_diffs_desc" : "",
+		"ez_title" : "Easy",
+		"nrml_title" : "Normal",
+		"hrd_title" : "Hard",
+		"vh_title" : "Very Hard",
+		"ovk_title" : "Overkill",
+		"mh_title" : "Mayhem",
+		"dw_title" : "Death Wish",
+		"ds_title" : "Death Sentence",
+		"one_down_mod_title" : "One Down",
+		
+		"RPDS_modes_title" : "Modes",
+		"RPDS_modes_desc" : "",
+		"cs_title" : "Crime Spree",
+		"cs_rank_title" : "CS Rank",
+		"ho_title" : "Holdout",
+		
+		
+
+		"RPDS_miscellaneous_title" : "Miscellaneous",
+		"RPDS_miscellaneous_desc" : "",
+		"days_title" : "Days",
+		"days_desc" : "Determine how days should be presented e.g 'Day 1'",
+		"coma_title" : "Separator",
+		"coma_desc" : "Determine how separators should be presented e.g 'Rats, Day 1, OVK' or 'Rats | Day 1 | OVK'",
+		"bracket1_title" : "Left Side Separator",
+		"bracket2_title" : "Right Side Separator",
+		"bracket_desc" : "Determine how difficulty should be presented e.g '[OVK]' or '=OVK=' or just 'OVK'",
+		"players_title" : "Player Counter",
+		"players_desc" : "Player counter e.g [1/4], determine what should be written after that e.g [4/4] players. Leave blank for just the brackets and numbers",
+		"bracket_counter_title" : "Player Counter Separators",
+		"bracket_counter_desc" : "Determine whether that thing should look like [1/4 ppl] or just 1/4 ppl",
+		"bracket_days_title" : "Heist Day Separators",
+		"bracket_days_desc" : "Determine whether that thing should look like [Day 1] or just Day 1",	
+		"bracket_diffs_title" : "Difficulty Separators",
+		"bracket_diffs_desc" : "Determine whether that thing should look like [Normal] or just Normal",
+		"comas_title" : "Commas",
+		"comas_desc" : "Enable or disable commas"				
+		
+	}

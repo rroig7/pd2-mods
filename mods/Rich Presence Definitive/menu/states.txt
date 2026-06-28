@@ -1,0 +1,81 @@
+{
+	"menu_id" : "states_options",
+	"parent_menu_id" : "custom_names_editor",
+	"title" : "RPDS_states_title",
+	"description" : "RPDS_states_desc",
+	"back_callback" : "RichPresenceDefinitive_callback_save",
+	"items" : [
+		{
+            "type": "input",
+            "id": "menu",
+            "title": "menu_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "menu"
+		},
+		{
+            "type": "input",
+            "id": "private",
+            "title": "private_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "private"
+		},
+		{
+            "type": "input",
+            "id": "empty",
+            "title": "empty_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "empty"
+		},
+	        {
+            "type": "input",
+            "id": "lobby",
+            "title": "lobby_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "lobby"
+		},
+	        {
+            "type": "input",
+            "id": "ingame",
+            "title": "ingame_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "ingame"
+		},
+                {
+            "type": "input",
+            "id": "payday",
+            "title": "payday_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "payday"
+		},
+		{
+            "type": "input",
+            "id": "preplanning",
+            "title": "preplanning_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "preplanning"
+		},
+		{
+            "type": "input",
+            "id": "game_state_loud",
+            "title": "game_state_loud_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "game_state_loud"
+		},
+		{
+            "type": "input",
+            "id": "game_state_stealth",
+            "title": "game_state_stealth_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "game_state_stealth"
+		}
+	]
+}

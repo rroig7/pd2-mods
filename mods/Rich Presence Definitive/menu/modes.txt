@@ -1,0 +1,33 @@
+{
+	"menu_id" : "modes_options",
+	"parent_menu_id" : "custom_names_editor",
+	"title" : "RPDS_modes_title",
+	"description" : "RPDS_modes_desc",
+	"back_callback" : "RichPresenceDefinitive_callback_save",
+	"items" : [
+		{
+            "type": "input",
+            "id": "cs",
+            "title": "cs_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "cs"
+		},
+		{
+            "type": "input",
+            "id": "cs_rank",
+            "title": "cs_rank_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "cs_rank"
+		},
+		{
+            "type": "input",
+            "id": "ho",
+            "title": "ho_title",
+            "description": "how_to",
+            "callback": "RichPresenceDefinitive_callback_string",
+            "value": "ho"
+		}
+	]
+}
