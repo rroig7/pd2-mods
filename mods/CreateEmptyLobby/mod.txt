@@ -1,0 +1,13 @@
+{
+	"name" : "Create Empty Lobby",
+	"description" : "Provides a convenient way to start a contractless lobby in friends-only mode, directly from the main menu",
+	"author" : "\n    Snh20\n    TdlQ (localizations loading code)",
+	"version" : "0.0.1",
+	"priority" : 10,
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "menumanager.lua"
+		}
+	]
+}

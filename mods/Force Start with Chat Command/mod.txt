@@ -1,0 +1,20 @@
+{
+	"name" : "Force Start (Chat Command Edition)",
+	"description" : "Starts the game before players are ready via a chat messsage.\nPlayers must be loaded into the game, and not desynced.",
+	"author" : "Offyerrocker",
+	"contact" : "Discord: Offyerrocker#3878",
+	"version" : "1.2",
+	"blt_version" : 2,
+	"image" : "icon.png",
+	"color" : "128 0 255",
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "menumanager.lua"
+		},
+		{
+			"hook_id" : "lib/managers/chatmanager",
+			"script_path" : "forcestart.lua"
+		}
+	]
+}

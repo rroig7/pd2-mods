@@ -1,0 +1,80 @@
+{
+	"menu_id" : "forcestart_options",
+	"parent_menu_id" : "blt_options",
+	"title" : "forcestart_menu_title",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "forcestart_set_client_permission",
+			"title" : "forcestart_set_client_permission_title",
+			"description" : "forcestart_set_client_permission_desc",
+			"callback" : "callback_forcestart_set_client_permission",
+			"items" : [
+				"forcestart_permission_a",
+				"forcestart_permission_b",
+				"forcestart_permission_c"
+			],
+			"value" : "client_permission"
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "forcestart_set_log_mode",
+			"title" : "forcestart_set_log_mode_title",
+			"description" : "forcestart_set_log_mode_desc",
+			"callback" : "callback_forcestart_set_log_mode",
+			"items" : [
+				"forcestart_log_mode_a",
+				"forcestart_log_mode_b",
+				"forcestart_log_mode_d",
+				"forcestart_log_mode_c"
+			],
+			"value" : "log_mode"
+		},
+		{
+			"type" : "button",
+			"id" : "forcestart_show_password",
+			"title" : "forcestart_show_password_title",
+			"description" : "forcestart_show_password_desc",
+			"callback" : "callback_forcestart_show_password"
+		},
+		{
+			"type" : "button",
+			"id" : "forcestart_password_info",
+			"title" : "forcestart_password_info_title",
+			"description" : "forcestart_password_info_desc",
+			"callback" : "callback_forcestart_password_info"
+		},
+		{
+			"type" : "button",
+			"id" : "forcestart_reload_password",
+			"title" : "forcestart_reload_password_title",
+			"description" : "forcestart_reload_password_desc",
+			"callback" : "callback_forcestart_reload_password"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "keybind",
+			"id" : "forcestart_keybind_1",
+			"title" : "forcestart_keybind_title",
+			"description" : "forcestart_keybind_desc",
+			"keybind_id" : "forcestart_keybind",
+			"run_in_game" : "true",
+			"run_in_menu" : "false",
+			"func" : "callback_forcestart_game"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "button",
+			"id" : "forcestart_button",
+			"title" : "forcestart_button_title",
+			"description" : "forcestart_button_desc",
+			"callback" : "callback_forcestart_game"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "stoic slurp to bloxy cola sound",
+	"description": "*can opening* *slurps* ahh",
+	"author": "https://modworkshop.net/user/131533",
+	"version": "4",
+	"priority": 100,
+	"color": "0 0 0",
+	"image": "bloxycola.png",
+	"blt_version": 2,
+	"hooks": [
+		{
+			"hook_id": "lib/managers/playermanager",
+			"script_path": "Base.lua"
+		}
+	]
+}
