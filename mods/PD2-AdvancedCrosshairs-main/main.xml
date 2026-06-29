@@ -1,0 +1,8 @@
+<mod name="Advanced Crosshairs, Hitmarkers, and Hitsounds" author="Offyerrocker" color="Color(0.4,0.7,1)" min_lib_ver="4.4" >
+	<AssetUpdates id="29585" version="43" provider="modworkshop" install_directory="mods/" version_is_number="true" />
+	<Localization directory="localization" default="english.txt">
+		<loc file="english.txt" language="english" />
+		<loc file="schinese.txt" language="schinese" />
+		<loc file="russian.txt" language="russian" />
+	</Localization>
+</mod>
